@@ -3,7 +3,7 @@ const bot = new Commando.Client({
 	commandPrefix: '!'
 });
 
-const BOT_TOKEN = proccess.env.BOT_TOKEN;
+const BOT_TOKEN = proccess.env.TOKEN;
 
 bot.registry.registerGroup('simple', 'simple');
 bot.registry.registerGroup('music', 'music');
